@@ -1,27 +1,25 @@
-<img alt="CIRWEL — runtime infrastructure for persistent AI agents" src="./assets/cirwel-stack.svg" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/cirwel-device-dark.svg">
+  <img alt="CIRWEL" src="./assets/cirwel-device.svg" width="96">
+</picture>
 
 ## CIRWEL
 
-**Runtime infrastructure for persistent AI agents.**
+**Infrastructure for long-lived AI agents.**
 
 CIRWEL builds systems for agent work that spans sessions, restarts, and handoffs.
 
-The main project is **[UNITARES](https://github.com/CIRWEL/unitares)** — a self-hosted runtime layer that keeps identity, evidence, memory, runtime state, review, and coordination accountable across those boundaries.
+The main project is **[UNITARES](https://github.com/cirwel/unitares)**, a self-hosted runtime layer that keeps identity, evidence, memory, runtime state, review, and coordination accountable across those boundaries.
 
-Here, **persistent** does not mean one process runs forever. It means the accountable work can continue across transient processes without losing identity, evidence, or memory.
+*Long-lived* describes continuity of the work and its accountable record, not a claim that one process runs forever.
 
 UNITARES runs alongside model providers and agent frameworks rather than replacing them.
 
 ### Start here
 
-**[UNITARES](https://github.com/CIRWEL/unitares)**  
-Runtime infrastructure for persistent agents. MCP, REST, SDK, shared memory, review, policy, recovery, and coordination.
-
-```bash
-git clone https://github.com/CIRWEL/unitares
-cd unitares
-docker compose up -d --wait
-```
+**[UNITARES](https://github.com/cirwel/unitares)**  
+Infrastructure for long-lived agents. MCP, REST, SDK, shared memory, review, policy, recovery, and coordination.  
+[Quickstart](https://github.com/cirwel/unitares#quickstart) (release-tagged Docker Compose install) · [Evidence and limits](https://github.com/cirwel/unitares#evidence-and-limits)
 
 **[unitares-sdk](https://pypi.org/project/unitares-sdk/)**  
 The public agent-side contract.
@@ -30,16 +28,20 @@ The public agent-side contract.
 pip install unitares-sdk
 ```
 
+**[Host adapter](https://github.com/cirwel/unitares-host-adapter)** and **[plugin](https://github.com/cirwel/unitares-governance-plugin)**  
+Connect existing harnesses such as Claude Code, Codex, and Hermes without moving the agent loop.
+
 ### Research
 
 CIRWEL also studies whether longitudinal runtime signals contain useful information beyond outputs and traces.
 
 That work is treated as an empirical question, not a product assumption.
 
-- [UNITARES paper](https://doi.org/10.5281/zenodo.19647159)
-- [Trajectory Identity](https://github.com/CIRWEL/trajectory-identity-paper)
-- [Digital Proprioception](https://github.com/CIRWEL/digital-proprioception-paper)
-- [Datasets and models](https://huggingface.co/hikewa)
+- [UNITARES: Information-Theoretic Governance of Heterogeneous Agent Fleets](https://doi.org/10.5281/zenodo.19647159)
+- [Trajectory Identity](https://doi.org/10.5281/zenodo.20098168)
+- [Digital Proprioception and Allostatic Load](https://doi.org/10.5281/zenodo.21930092)
+- [Accountability Without a Trusted Center](https://doi.org/10.5281/zenodo.21930161)
+- [Datasets and reproduction kits](https://huggingface.co/hikewa)
 
 ### Built under its own machinery
 
