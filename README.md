@@ -9,7 +9,7 @@
 
 CIRWEL builds systems for agent work that spans sessions, restarts, and handoffs.
 
-The main project is **[UNITARES](https://github.com/cirwel/unitares)**, a self-hosted runtime layer that keeps identity, evidence, memory, runtime state, review, and coordination accountable across those boundaries.
+The main project is **[UNITARES](https://github.com/cirwel/unitares)**, accountability infrastructure for long-running AI agents: a self-hosted, single-operator federation kernel that keeps one attributed record of identity, claims and evidence, review, outcomes, and reconstruction across those boundaries, and across agents from different vendors.
 
 *Long-lived* describes continuity of the work and its accountable record, not a claim that one process runs forever.
 
@@ -18,7 +18,7 @@ UNITARES runs alongside model providers and agent frameworks rather than replaci
 ### Start here
 
 **[UNITARES](https://github.com/cirwel/unitares)**  
-Infrastructure for long-lived agents. MCP, REST, SDK, shared memory, review, policy, recovery, and coordination.  
+Accountability infrastructure for long-running AI agents. Self-hosted MCP and REST server, SDK, shared memory, cross-vendor review, outcomes, and recovery.  
 [Quickstart](https://github.com/cirwel/unitares#quickstart) (release-tagged Docker Compose install) · [Evidence and limits](https://github.com/cirwel/unitares#evidence-and-limits)
 
 **[unitares-sdk](https://pypi.org/project/unitares-sdk/)**  
