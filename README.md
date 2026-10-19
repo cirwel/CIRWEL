@@ -39,7 +39,7 @@ That work is treated as an empirical question, not a product assumption.
 
 - [UNITARES: Information-Theoretic Governance of Heterogeneous Agent Fleets](https://doi.org/10.5281/zenodo.19647159)
 - [Trajectory Identity](https://doi.org/10.5281/zenodo.20098168)
-- [Digital Proprioception and Allostatic Load](https://doi.org/10.5281/zenodo.21930092)
+- [A Flat Coherence Score](https://doi.org/10.5281/zenodo.21930092)
 - [Accountability Without a Trusted Center](https://doi.org/10.5281/zenodo.21930161)
 - [Datasets and reproduction kits](https://huggingface.co/hikewa)
 
