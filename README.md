@@ -19,7 +19,7 @@ UNITARES runs alongside model providers and agent frameworks rather than replaci
 
 **[UNITARES](https://github.com/cirwel/unitares)**  
 Accountability infrastructure for long-running AI agents. Self-hosted MCP and REST server, SDK, shared memory, cross-vendor review, outcomes, and recovery.  
-[Quickstart](https://github.com/cirwel/unitares#quickstart) (release-tagged Docker Compose install) · [Evidence and limits](https://github.com/cirwel/unitares#evidence-and-limits)
+[Install](https://github.com/cirwel/unitares#install) (Homebrew preview for Apple Silicon Macs or release-tagged Docker Compose) · [Walkthrough](https://cirwel.github.io/unitares/demo.html) · [Evidence and limits](https://github.com/cirwel/unitares/blob/master/docs/EVIDENCE_AND_LIMITS.md)
 
 **[unitares-sdk](https://pypi.org/project/unitares-sdk/)**  
 The public agent-side contract.
@@ -49,7 +49,7 @@ CIRWEL uses UNITARES in its own development environment.
 
 Agents working on the stack use attributed memory, advisory consultation, structured review, evidence-linked check-ins, and coordinated handoffs. Advice remains evidence rather than automatically becoming authority.
 
-The deployment has been running continuously since November 2025. That demonstrates sustained use of the mechanisms in one operator's environment; it does not establish predictive benefit, incident prevention, or cross-operator generality.
+The deployment has run since November 2025 as CIRWEL's own development record; operational figures and scope live in the [production snapshot](https://github.com/cirwel/unitares/blob/master/docs/PRODUCTION_SNAPSHOT.md) and [evidence ledger](https://github.com/cirwel/unitares/blob/master/docs/EVIDENCE_AND_LIMITS.md).
 
 ### Elsewhere
 
