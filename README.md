@@ -7,13 +7,9 @@
 
 **Infrastructure for long-lived AI agents.**
 
-CIRWEL builds systems for agent work that spans sessions, restarts, and handoffs.
+CIRWEL builds systems for agent work across sessions, runtimes, and vendors.
 
-The main project is **[UNITARES](https://github.com/cirwel/unitares)**, accountability infrastructure for long-running AI agents: a self-hosted, single-operator federation kernel that keeps one attributed record of identity, claims and evidence, review, outcomes, and reconstruction across those boundaries, and across agents from different vendors.
-
-*Long-lived* describes continuity of the work and its accountable record, not a claim that one process runs forever.
-
-UNITARES runs alongside model providers and agent frameworks rather than replacing them.
+The main project is **[UNITARES](https://github.com/cirwel/unitares)**, accountability infrastructure for long-running AI agents: a self-hosted, single-operator federation kernel that keeps one attributed record of identity, claims and evidence, review, outcomes, and reconstruction across those boundaries, alongside Git, handoff notes, and scratchpads.
 
 ### Start here
 
@@ -33,9 +29,7 @@ Connect existing harnesses such as Claude Code, Codex, and Hermes without moving
 
 ### Research
 
-CIRWEL also studies whether longitudinal runtime signals contain useful information beyond outputs and traces.
-
-That work is treated as an empirical question, not a product assumption.
+CIRWEL studies longitudinal runtime state estimation, behavioral trajectory identity, and verifiable attestation across agent fleets:
 
 - [UNITARES: Information-Theoretic Governance of Heterogeneous Agent Fleets](https://doi.org/10.5281/zenodo.19647159)
 - [Trajectory Identity](https://doi.org/10.5281/zenodo.20098168)
@@ -47,7 +41,7 @@ That work is treated as an empirical question, not a product assumption.
 
 CIRWEL uses UNITARES in its own development environment.
 
-Agents working on the stack use attributed memory, advisory consultation, structured review, evidence-linked check-ins, and coordinated handoffs. Advice remains evidence rather than automatically becoming authority.
+Agents working on the stack use attributed shared memory, advisory consultation, structured review, evidence-linked check-ins, and surface leases alongside Git and handoff notes. Advice remains evidence rather than automatically becoming authority.
 
 The deployment has run since November 2025 as CIRWEL's own development record; operational figures and scope live in the [production snapshot](https://github.com/cirwel/unitares/blob/master/docs/PRODUCTION_SNAPSHOT.md) and [evidence ledger](https://github.com/cirwel/unitares/blob/master/docs/EVIDENCE_AND_LIMITS.md).
 
